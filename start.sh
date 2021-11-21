@@ -1,12 +1,12 @@
-if [ -z $UPSTREAM_REPO ]
+if [ -z anonymoushjk53repo]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/EvamariaTG/EvaMaria.git /EvaMaria
+  git clone https://github.com/Anonymushjk/anonymoushjk53 /EvaMaria
 else
-  echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /EvaMaria
+  echo "Cloning Custom Repo from anonymoushjk53"
+  git clone anonymoushjk53repp /mia
 fi
-cd /EvaMaria
+cd /mia
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
